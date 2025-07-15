@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <title>Malla Curricular Interactiva</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f5fbe6;
+      padding: 20px;
+      color: #333;
+    }
+    h1 {
+      color: #6bae73;
+    }
+    .anio, .semestre {
+      margin-top: 20px;
+      padding: 10px;
+      background-color: #b3c59e;
+      border-radius: 5px;
+    }
+    .semestre {
+      background-color: #9fbb7d;
+    }
+    .ramo {
+      background-color: #e6f5d0;
+      margin: 8px 0;
+      padding: 10px;
+      border-left: 6px solid #6bae73;
+      border-radius: 4px;
+    }
+    .ramo.aprobado {
+      text-decoration: line-through;
+      opacity: 0.6;
+      background-color: #d9f2c0;
+    }
+    .ramo input {
+      margin-right: 10px;
+    }
+  </style>
+</head>
+<body>
+  <h1>🪴 Malla Curricular Interactiva</h1>
+  <div id="contenedor-malla"></div>
+
+  <script src="data.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
