@@ -1,0 +1,51 @@
+body {
+  font-family: "Segoe UI", sans-serif;
+  margin: 20px;
+  background-color: #f9fdf9;
+  color: #2f2f2f;
+}
+
+h1 {
+  text-align: center;
+  color: #6bae73; /* Verde hoja */
+}
+
+.subtitulo {
+  text-align: center;
+  color: #8bb55c;
+  margin-bottom: 30px;
+}
+
+.semestre {
+  margin-bottom: 30px;
+  border-left: 5px solid #b3c59e; /* Verde musgo */
+  padding-left: 15px;
+}
+
+.semestre h2 {
+  color: #6bae73;
+}
+
+.ramo {
+  background: #ffffff;
+  margin: 8px 0;
+  padding: 12px 14px;
+  border-left: 5px solid #9fbb7d; /* Verde limón */
+  cursor: pointer;
+  transition: 0.2s ease;
+  border-radius: 5px;
+}
+
+.ramo:hover {
+  background-color: #f2fdf2;
+}
+
+.ramo.aprobado {
+  border-left-color: #88c88f; /* Verde aprobado */
+  background-color: #e6fbe6;
+}
+
+.ramo.bloqueado {
+  opacity: 0.4;
+  pointer-events: none;
+}
